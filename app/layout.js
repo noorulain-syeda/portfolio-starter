@@ -10,7 +10,7 @@ const font = Inter({ subsets: ["latin"] });
 
 // Shown in the browser tab, on Google, and in link previews.
 export const metadata = {
-  title: `${cv.name} | Portfolio`,
+  title: `Team Portfolio – deploy test`,
   description: cv.summary,
 };
 
