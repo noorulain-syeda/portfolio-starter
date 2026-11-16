@@ -1,0 +1,29 @@
+{
+  "name": "yara-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/check-cv.mjs",
+    "build": "next build",
+    "check:cv": "node scripts/check-cv.mjs",
+    "start": "npx serve out",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@fontsource/aref-ruqaa": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "tailwindcss": "^4"
+  }
+}
